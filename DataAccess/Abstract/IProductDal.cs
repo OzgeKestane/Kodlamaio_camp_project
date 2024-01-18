@@ -1,4 +1,6 @@
-﻿using Entities.Concrete;
+﻿using Core.DataAccess;
+using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Abstract
 {
@@ -11,7 +13,8 @@ namespace DataAccess.Abstract
 
         //List<Product> GetAllByCategory(int categoryId);
 
-
+        List<ProductDetailDto> GetProductDetails();
 
     }
 }
+//code refactoring

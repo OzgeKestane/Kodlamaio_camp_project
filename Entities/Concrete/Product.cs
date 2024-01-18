@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 
 namespace Entities.Concrete
 { //bir classın default berişim belirteci internal'dır. sadece o katman erişebilir. 
