@@ -6,5 +6,9 @@
         public static string ProductNameInvalid = "Ürün ismi geçersiz";
         public static string MaintenanceTime = "Sistem Bakımda";
         public static string ProductsListed = "Ürünler listelendi";
+        public static string ProductUpdated = "Ürünler güncellendi";
+        public static string ProductDeleted = "Ürünler silindi";
+
+
     }
 }

@@ -11,8 +11,12 @@ namespace Business.Abstract
         IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max);
         IDataResult<List<ProductDetailDto>> GetProductDetails();
         IDataResult<Product> GetById(int productId);
+
         //Add operatorü voiddi, data olmadığı için o direkt IResult
         IResult Add(Product product);
+        IResult Update(Product product);
+        IResult Delete(Product product);
+
 
     }
 }
