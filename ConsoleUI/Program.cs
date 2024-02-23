@@ -7,7 +7,7 @@ using DataAccess.Concrete.EntityFramework;
 //ProductTest();
 //CategoryTest();
 
-ProductManager productManager = new ProductManager(new EfProductDal());
+ProductManager productManager = new ProductManager(new EfProductDal(), new CategoryManager(new EfCategoryDal()));
 var result = productManager.GetProductDetails();
 if (result.Success)
 {
